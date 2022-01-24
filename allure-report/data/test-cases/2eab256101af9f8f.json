@@ -1,0 +1,313 @@
+{
+  "uid" : "2eab256101af9f8f",
+  "name" : "Login with incorrect data",
+  "fullName" : "Login with incorrect data",
+  "historyId" : "c0a4c0c4bf5521be25544ce0dbeba4b5",
+  "time" : {
+    "start" : 1643016565721,
+    "stop" : 1643016567974,
+    "duration" : 2253
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1643016565722,
+        "stop" : 1643016565823,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "viewport 1024, 900",
+        "time" : {
+          "start" : 1643016565812,
+          "stop" : 1643016565822,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "visit /login",
+      "time" : {
+        "start" : 1643016565824,
+        "stop" : 1643016566995,
+        "duration" : 1171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-334117-5&cid=659985913.1643016566&jid=891217013&gjid=675116801&_gid=471120003.1643016566&_u=YGBAgEABAAAAAE~&z=1882861017",
+      "time" : {
+        "start" : 1643016566995,
+        "stop" : 1643016566995,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://omnimove.tourradar.com/api/t1407231213/v1444947663?id=null&lce=0&r=0.21001077099562826",
+      "time" : {
+        "start" : 1643016566995,
+        "stop" : 1643016566995,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://www.facebook.com/x/oauth/status?ancestor_origins=https%3A%2F%2Fwww.tourradar.com&client_id=144053452313695&input_token&origin=1&redirect_uri=https%3A%2F%2Fwww.tourradar.com%2Flogin&sdk=joey&wants_cookie_data=true",
+      "time" : {
+        "start" : 1643016566995,
+        "stop" : 1643016566995,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "login (\"email@gmail.at\"; \"password\")",
+      "time" : {
+        "start" : 1643016566995
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get #g_email",
+        "time" : {
+          "start" : 1643016566996,
+          "stop" : 1643016567010,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type email@gmail.at",
+        "time" : {
+          "start" : 1643016567010,
+          "stop" : 1643016567383,
+          "duration" : 373
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://accounts.google.com/o/oauth2/iframerpc?action=checkOrigin&origin=https%3A%2F%2Fwww.tourradar.com&client_id=399583607835.apps.googleusercontent.com",
+        "time" : {
+          "start" : 1643016567383,
+          "stop" : 1643016567383,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get #g_password",
+        "time" : {
+          "start" : 1643016567383,
+          "stop" : 1643016567390,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type password",
+        "time" : {
+          "start" : 1643016567390,
+          "stop" : 1643016567683,
+          "duration" : 293
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get #g_send",
+        "time" : {
+          "start" : 1643016567683,
+          "stop" : 1643016567690,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1643016567690,
+          "stop" : 1643016567803,
+          "duration" : 113
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST /travellers/login/all",
+        "time" : {
+          "start" : 1643016567803,
+          "stop" : 1643016567803,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get #message-sign-in",
+      "time" : {
+        "start" : 1643016567804,
+        "stop" : 1643016567810,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Wrong login data.",
+      "time" : {
+        "start" : 1643016567810,
+        "stop" : 1643016567973,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "be385ee3b4b473d4",
+      "name" : "video recording",
+      "source" : "be385ee3b4b473d4.mp4",
+      "type" : "video/mp4",
+      "size" : 416783
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5bc90e5a748f00d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643015498963,
+        "stop" : 1643015501395,
+        "duration" : 2432
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2eab256101af9f8f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,260 @@
+{
+  "uid" : "35c68f4cc2bdbcd0",
+  "name" : "BNP: Chek that Paypal payment option is available",
+  "fullName" : "BNP: Chek that Paypal payment option is available",
+  "historyId" : "5117085ea5ec91c7723672b8626a389f",
+  "time" : {
+    "start" : 1643015487045,
+    "stop" : 1643015488671,
+    "duration" : 1626
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit /book-now/266?date=12.02.2030&type=book",
+      "time" : {
+        "start" : 1643015487197,
+        "stop" : 1643015488033,
+        "duration" : 836
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-334117-5&cid=1442174679.1643015488&jid=1234973972&gjid=2066992184&_gid=1767145038.1643015488&_u=aGBAgEALAAAAAE~&z=1816001212",
+      "time" : {
+        "start" : 1643015488032,
+        "stop" : 1643015488032,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /api/book-now/get_payment_options/266",
+      "time" : {
+        "start" : 1643015488032,
+        "stop" : 1643015488032,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://omnimove.tourradar.com/api/t1407991888/v944495331?id=WyJzZXNfNjFlZTZkM2RjZDAzMjcuNjA2MTQyNzYiLCIwMTdjZTI4ZjA5NGVjZjhjZmE2YmI4MWZkZTliNzY4OSJd&lce=1643015485&r=0.9455433320495417",
+      "time" : {
+        "start" : 1643015488033,
+        "stop" : 1643015488033,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Pay with PayPal",
+      "time" : {
+        "start" : 1643015488033,
+        "stop" : 1643015488292,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://www.tourradar.com/api/insurance/quote",
+      "time" : {
+        "start" : 1643015488292,
+        "stop" : 1643015488292,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1643015488292,
+        "stop" : 1643015488626,
+        "duration" : 334
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://payments.braintree-api.com/graphql",
+      "time" : {
+        "start" : 1643015488625,
+        "stop" : 1643015488625,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://client-analytics.braintreegateway.com/mz3t7c6mc36d3v4y",
+      "time" : {
+        "start" : 1643015488625,
+        "stop" : 1643015488625,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://client-analytics.braintreegateway.com/mz3t7c6mc36d3v4y",
+      "time" : {
+        "start" : 1643015488625,
+        "stop" : 1643015488625,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://client-analytics.braintreegateway.com/mz3t7c6mc36d3v4y",
+      "time" : {
+        "start" : 1643015488626,
+        "stop" : 1643015488626,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Click here to sign into your PayPal Account:",
+      "time" : {
+        "start" : 1643015488626,
+        "stop" : 1643015488656,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #paypal-container img",
+      "time" : {
+        "start" : 1643015488656,
+        "stop" : 1643015488669,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<img.lazy>** to be **visible**",
+      "time" : {
+        "start" : 1643015488669,
+        "stop" : 1643015488669,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "143a014a866becc2",
+      "name" : "video recording",
+      "source" : "143a014a866becc2.mp4",
+      "type" : "video/mp4",
+      "size" : 2258593
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35c68f4cc2bdbcd0.json",
+  "parameterValues" : [ ]
+}

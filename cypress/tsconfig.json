@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress"]
+    },
+    "include": [
+      "**/*.ts", 
+      "../index.d.ts", 
+      "../node_modules/@shelex/cypress-allure-plugin/reporter", 
+      "../node_modules/cypress"
+    ],
+    "compilerOptions": {
+      "types": [
+        "cypress", 
+        "@testing-library/cypress", 
+        "node", 
+        "lodash", 
+        "express"
+      ]
+    }
+}

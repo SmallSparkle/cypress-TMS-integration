@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jan 24 10:29:15 CET 2022","Mon Jan 24 10:29:20 CET 2022","5624","","","","","","BNP: Instant booking, accommodation, deposit",""
+"passed","Mon Jan 24 10:29:13 CET 2022","Mon Jan 24 10:29:15 CET 2022","1521","","","","","","BNP: Chek that Paypal payment option is available",""
+"passed","Mon Jan 24 10:29:10 CET 2022","Mon Jan 24 10:29:13 CET 2022","2778","","","","","","Check for existence of important blocks on BookNow page",""
+"passed","Mon Jan 24 10:29:25 CET 2022","Mon Jan 24 10:29:27 CET 2022","2253","","","","","","Login with incorrect data",""

@@ -1,0 +1,41 @@
+[ {
+  "uid" : "cf48d934fd6dcab",
+  "name" : "BNP: Instant booking, accommodation, deposit",
+  "time" : {
+    "start" : 1643016555303,
+    "stop" : 1643016560927,
+    "duration" : 5624
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b1d567465c28b61",
+  "name" : "BNP: Chek that Paypal payment option is available",
+  "time" : {
+    "start" : 1643016553695,
+    "stop" : 1643016555216,
+    "duration" : 1521
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae0f66c49d616e5",
+  "name" : "Check for existence of important blocks on BookNow page",
+  "time" : {
+    "start" : 1643016550889,
+    "stop" : 1643016553667,
+    "duration" : 2778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2eab256101af9f8f",
+  "name" : "Login with incorrect data",
+  "time" : {
+    "start" : 1643016565721,
+    "stop" : 1643016567974,
+    "duration" : 2253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
