@@ -14,6 +14,13 @@ const lastName = faker.name
 
 
 it('Check for existence of important blocks on BookNow page', () => {
+  cy.allure()
+  .epic('Booking')
+  .feature('Some feature')
+  .owner('Anastasiia Bespalova')
+  .severity('critical')
+  .tag('web', 'login')
+  
   bookNowPage.openBookNowPage('28322')
   bookNowPage.checkPageContainsLogo()
   bookNowPage.checkPageContainsAgentInfobox()
@@ -22,6 +29,13 @@ it('Check for existence of important blocks on BookNow page', () => {
   });
 
   it('BNP: Chek that Paypal payment option is available', () => {
+    cy.allure()
+    .epic('Booking')
+    .feature('Some feature 2')
+    .owner('Diogo Nuno Martins Lopes')
+    .severity('critical')
+    .tag('web', 'login')
+
     bookNowPage.openBookNowPageWithData('266', '12.02.2030')
     bookNowPage.checkPayPal()
   });
