@@ -57,6 +57,7 @@ export class BookNowPage{
   
   checkPageContainsLogo() {
     cy.allure().logStep('Chek TourRadar logo is presen')
+    
     cy.get('header')
       .find('svg')
       .should('have.length', 1);
@@ -90,8 +91,17 @@ export class BookNowPage{
   
   checkPayPal() {
     cy.allure().logStep('Check PayPal is present')
+
     cy.contains('Pay with PayPal').click();
     cy.contains('Click here to sign into your PayPal Account:');
+    cy.get('#paypal-container img').should('be.visible');
+  }
+
+  checkPayPalBroken() {
+    cy.allure().logStep('Check PayPal is present')
+
+    cy.contains('something').click();
+    cy.contains('Click here:');
     cy.get('#paypal-container img').should('be.visible');
   }
 
